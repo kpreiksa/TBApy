@@ -10,6 +10,9 @@ Welcome to TBApy's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+.. autoclass:: TeamInfo.TeamInfo
+    :members:
+
 
 
 Indices and tables

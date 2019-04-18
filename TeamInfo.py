@@ -1,4 +1,5 @@
 class TeamInfo():
+    ''' Represents a single team '''
     def __init__(self, init_dict):
         self._raw_dict = init_dict
         self. address = init_dict['address']
@@ -56,3 +57,7 @@ class TeamInfo():
             nickname = self.nickname, 
             city = self.city, 
             state_prov = self.state_prov)
+    
+    def queryEvents(self, year = None):
+        '''Perform a TBA query for all events this team has competed in. Optional filter based on year.'''
+        pass
